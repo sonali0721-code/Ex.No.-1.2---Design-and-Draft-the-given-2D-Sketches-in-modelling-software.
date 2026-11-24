@@ -10,33 +10,69 @@
  4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
  
  ## PROCEDURE
- 1.	Open new file and then select sketch icon.
- 2.	Select the plane for sketching. 
- 3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch.
+1. Drawing setup:
+         
+    Create a new Fusion 360 design and start a sketch on the XY plane. Set the units to millimetres and use the origin as the centre of the diagram. 
  
- ![image](https://user-images.githubusercontent.com/113594316/198232594-2187c1c1-4e85-437f-99f7-263bb1a3e968.png)
- 4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+   <img width="242" height="283" alt="image" src="https://github.com/user-attachments/assets/48ae1c2e-6e1d-4fed-8573-b1b7fa625eaa" />
+
+ 2. Outer plate boundary: 
+
+     Draw a centred rectangle approximately 178.77 mm wide as a guide for the plate outline. Sketch the sloping sides and rounded top and bottom edges; use tangent constraints where lines meet arcs.  
+
+3. Hole placement:
+
+     Create four circles with a diameter of 30 mm, matching the four corner holes in the diagram. Position them symmetrically around the centre; use the drawing’s dimensions to set their spacing where the extension lines make the reference clear. 
+
+4. Centre feature:
+            
+   Draw the central circle with a diameter of 32 mm at the sketch origin. Add two concentric circles around it to form the surrounding ring, sizing the outer circle to match the diagram.
+
+5. Radial openings: 
+
+    Draw one opening in the ring and use Sketch > Circular Pattern to repeat it around the centre. Set the pattern to six instances, evenly spaced, to match the six openings shown
+
+6. Sketch constraints: 
+           
+    Apply symmetry about the vertical and horizontal centre lines so corresponding features stay aligned. Use dimensions, tangent constraints, and equal constraints to control the sketch and keep repeated geometry consistent. 
+
+7. Trimming the sketch:
+
+   Select Sketch → Modify → Trim or press T on the keyboard. Remove the unwanted portions of intersecting circles by clicking on them. Retain the required curved portions to form the output profile of the component
+ <img width="225" height="434" alt="image" src="https://github.com/user-attachments/assets/ae6adc4f-0793-4fae-8635-a6b1c099c5f0" />
+
+ 8. Extruding the model: 
+          
+    To turn the 2D sketch into a 3D part, select the plate profile and choose Solid > Create > Extrude. Enter the required thickness. 
+
+9.Check the Sketch Geometry:
  
- ![image](https://user-images.githubusercontent.com/113594316/198232771-48e6582d-4410-430a-a9d4-70e400255580.png)
+   Verify the outer boundary, circular holes, central cutout and mirrored geometry. Ensure that the circles and curved portions are properly positioned and that no unwanted sketch entities remain. 
+
+10. Dimension check: 
+
+    Check the sketch against the dimensions shown, including 178.77 mm, 140 mm, 120 mm, R20, Ø30, and Ø32. 
  
- 5.	Use inspect feature to measure the dimensions of sketch.
+    <img width="330" height="556" alt="image" src="https://github.com/user-attachments/assets/7369472d-6540-435a-ae7c-74b6887d46e6" />
+
+11. Finish the Sketch: 
+
+    Check the final drawing for correct geometry, dimensions, view arrangement, and ISO standard representation, select Finish Sketch. Make any necessary corrections before finalizing the drawing. This exits the sketching environment and saves the completed 2D sketch within the Fusion 360 design .
  
- ![image](https://user-images.githubusercontent.com/113594316/198232845-1608e574-732c-44b2-9921-39e920b70e2e.png)
- 
- 6.	After finishing the sketch use finish sketch option to finalize the sketch.
- ![image](https://user-images.githubusercontent.com/113594316/198232907-8275f39c-9031-4cf4-b0c4-8eb568e477ab.png)
- 7.	After finishing the sketch switch to drawing mode to plot the sketch in ISO standard
- 
- ![image](https://user-images.githubusercontent.com/113594316/198232997-7172a35b-79a2-45e4-88a3-5e741b4d90ce.png)
- 
- ![image](https://user-images.githubusercontent.com/113594316/198233011-28615257-fc2b-4c81-852a-49722c948e07.png)
- 
+    <img width="392" height="177" alt="image" src="https://github.com/user-attachments/assets/808d4056-e994-46de-a1a5-5979b62c3ac8" />
+
+ 12. Save the Final Project: 
+
+    Check the completed 2D sketch against the given reference drawing. Save the Fusion 360 design with an appropriate project name. Ensure that the dimensions, symmetrical profile and central cutout match the required design . Save the completed Fusion 360 design and drawing file with the appropriate project name.
+
  
  ## SKETCH
  ![image](https://user-images.githubusercontent.com/113594316/198233336-dd9f5c19-481b-486a-928a-99c32a732f89.png)
 
  ## OUTPUT
- 
+
+ <img width="1536" height="1024" alt="CAD Drawing Sheet with Sonali Title Block (1)" src="https://github.com/user-attachments/assets/95355937-2711-4b74-806e-33ab9b1f0392" />
+
  
  ## RESULT
  Thus the given sketch is drawn and drafted using fusion 360 tool.
